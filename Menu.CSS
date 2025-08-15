@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #0e0e0e;
+    color: #e0e0e0;
+}
+
+.cabecalho {
+    text-align: center;
+    padding: 20px;
+    background-color: #0a0a0a;
+}
+.cabecalho img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    padding: 40px 15px;
+}
+
+.card {
+    width: 280px;
+    height: 170px;
+    border-radius: 12px;
+    overflow: hidden;
+    text-decoration: none;
+    color: white;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+    box-shadow: 0 0 15px rgba(0, 255, 100, 0.15);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 20px rgba(0, 255, 100, 0.4);
+}
+
+.estilo {
+    background: rgba(0, 0, 0, 0.55);
+    padding: 12px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.estilo h2 {
+    margin: 0;
+    font-size: 1.4rem;
+    color: #00ff6a; 
+}
+.estilo p {
+    margin: 4px 0 0;
+    font-size: 0.9rem;
+    color: #ccc;
+}
+
+.card.html {
+    background-image: url('https://cdn-icons-png.flaticon.com/512/919/919827.png');
+    background-color: #ff5722;
+}
+.card.css {
+    background-image: url('https://cdn-icons-png.flaticon.com/512/919/919826.png');
+    background-color: #3f51b5;
+}
+.card.js {
+    background-image: url('https://cdn-icons-png.flaticon.com/512/919/919828.png');
+    background-color: #ffb300;
+}
+
+footer {
+    background: #0a0a0a;
+    color: #ccc;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+    border-top: 1px solid rgba(0, 255, 100, 0.3);
+}
